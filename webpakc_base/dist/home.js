@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/login/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/home/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/login/index.js":
-/*!****************************!*\
-  !*** ./src/login/index.js ***!
-  \****************************/
+/***/ "./src/home/index.js":
+/*!***************************!*\
+  !*** ./src/home/index.js ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('这里是login 入口')\n\nconsole.log('你好啊 login')\ndocument.body.innerHTML = 'hello Login'\n\n//# sourceURL=webpack:///./src/login/index.js?");
+eval("console.log('这里是home 入口')\n\nconsole.log('你好啊 home')\ndocument.body.innerHTML = 'hello Home'\n\n//# sourceURL=webpack:///./src/home/index.js?");
 
 /***/ })
 

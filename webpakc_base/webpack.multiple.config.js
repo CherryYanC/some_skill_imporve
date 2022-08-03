@@ -7,7 +7,7 @@ module.exports = {
     mode: 'development',
     entry: {
         login: './src/login/index.js',
-        // home: './src/home/index.js',
+        home: './src/home/index.js',
     },
     output: {
         filename: '[name].js',
@@ -32,7 +32,7 @@ module.exports = {
             filename: 'home.html',
             chunks: ['home'],
         }),
-        // new HtmlPlugin(),
+        new HtmlPlugin(),
         new CleanWebpackPlugin()
     ]
 }
