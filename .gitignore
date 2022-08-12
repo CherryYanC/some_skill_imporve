@@ -1,2 +1,4 @@
 ./webpack_base/node_modules
 ./webpack_base/dist
+
+./tapable/node_modules
